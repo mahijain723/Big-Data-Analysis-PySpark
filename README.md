@@ -1,31 +1,38 @@
-# Big-Data-Analysis-PySpark
-Big Data Analysis using PySpark on Netflix Dataset
 # Big Data Analysis Using PySpark 📊
 
 ## 📌 Project Overview
-This project performs Big Data Analysis on a movie dataset using Apache PySpark. The analysis focuses on exploring movie ratings, popularity, release trends, and audience engagement.
+This project performs movie dataset analysis using Apache PySpark to extract insights from ratings, popularity, vote counts, and release years.
 
-## 🛠️ Tools & Technologies
+## 🛠️ Technologies Used
 - Python
 - Apache PySpark
-- Jupyter Notebook
 - Pandas
+- Jupyter Notebook
 
 ## 📂 Dataset
 Movie Dataset (CSV)
 
-## 🔍 Key Questions Answered
-- Which movies have the highest ratings?
-- Which movies received the most votes?
-- How many movies were released after 2000?
-- What are the trends in movie popularity?
-- Which movies are both highly rated and widely reviewed?
+## 🔍 Analysis Performed
+- Data Loading and Cleaning
+- Schema Inspection
+- Top Rated Movies
+- Most Popular Movies
+- Movies Released After 2000
+- Vote Count Analysis
+- Rating Analysis
 
-## 📈 Key Insights
-- Several movies achieved exceptionally high average ratings.
-- Popular movies generally have a significantly higher vote count.
-- Movie releases increased considerably after 2000.
+## 🚀 Key Insights
 - Highly rated movies are not always the most popular.
+- Vote count significantly affects movie popularity.
+- Movie releases increased after 2000.
+- PySpark efficiently handles large-scale data analysis.
 
-## 🚀 Conclusion
-This project demonstrates how Apache PySpark can be used to efficiently analyze large datasets and extract valuable insights.
+## 📁 Project Structure
+
+BigDataAnalysis.ipynb
+movies.csv
+README.md
+.gitignore
+
+## 🎯 Conclusion
+This project demonstrates practical Big Data analytics using Apache PySpark and distributed data processing techniques.

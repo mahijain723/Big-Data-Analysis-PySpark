@@ -29,10 +29,14 @@ Movie Dataset (CSV)
 
 ## 📁 Project Structure
 
--BigDataAnalysis.ipynb
--movies.csv
--README.md
--.gitignore
+```text
+Big-Data-Analysis-PySpark
+│
+├── BigDataAnalysis.ipynb
+├── movies.csv
+├── README.md
+└── .gitignore
+```
 
 ## 🎯 Conclusion
 This project demonstrates practical Big Data analytics using Apache PySpark and distributed data processing techniques.
